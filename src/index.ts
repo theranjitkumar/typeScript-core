@@ -1,4 +1,5 @@
 console.log('Welcome to typeScript-core');
+// https://api.github.com/users/theranjitkumar
 
 class TsApp {
   name: string;
@@ -11,4 +12,7 @@ class TsApp {
     console.log(`Welcome ${name}`);
   }
 
+
+
 }
+new TsApp();

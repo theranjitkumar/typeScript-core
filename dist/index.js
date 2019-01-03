@@ -1,5 +1,6 @@
 "use strict";
 console.log('Welcome to typeScript-core');
+// https://api.github.com/users/theranjitkumar
 var TsApp = /** @class */ (function () {
     function TsApp() {
         this.name = 'Ranjit';
@@ -10,3 +11,4 @@ var TsApp = /** @class */ (function () {
     };
     return TsApp;
 }());
+var test = new TsApp();
